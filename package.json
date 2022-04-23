@@ -4,7 +4,8 @@
     "description": "Backend server for Kashier",
     "main": "index.js",
     "scripts": {
-        "start": "nodemon src/index.js"
+        "start": "node src/index.js",
+        "dev": "nodemon src/index.js"
     },
     "author": "0xf10yd",
     "dependencies": {
